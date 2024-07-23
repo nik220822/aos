@@ -9773,7 +9773,7 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
           </hashTree>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC1_looking_through">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC1_looking_through" enabled="true">
         <intProp name="ThreadGroup.num_threads">28</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <longProp name="ThreadGroup.duration">5400</longProp>
@@ -13729,7 +13729,7 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC2_buy">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC2_buy" enabled="true">
         <intProp name="ThreadGroup.num_threads">32</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <longProp name="ThreadGroup.duration">5400</longProp>
@@ -15835,7 +15835,7 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC3_login_logout">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC3_login_logout" enabled="true">
         <intProp name="ThreadGroup.num_threads">12</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <longProp name="ThreadGroup.duration">5400</longProp>
@@ -16732,7 +16732,7 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC4_select_dont_buy">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC4_select_dont_buy" enabled="true">
         <intProp name="ThreadGroup.num_threads">8</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <longProp name="ThreadGroup.duration">5400</longProp>
@@ -18137,6 +18137,43 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
         </ResultCollector>
         <hashTree/>
       </hashTree>
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
       <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
@@ -18335,7 +18372,7 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\User_1\jMeterTests\AOS_stab\stab_perf.csv</stringProp>
+        <stringProp name="filename"></stringProp>
         <longProp name="interval_grouping">1000</longProp>
         <boolProp name="graph_aggregated">false</boolProp>
         <stringProp name="include_sample_labels"></stringProp>
@@ -18365,6 +18402,51 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
           </collectionProp>
         </collectionProp>
       </kg.apc.jmeter.perfmon.PerfMonCollector>
+      <hashTree/>
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <longProp name="interval_grouping">500</longProp>
+        <boolProp name="graph_aggregated">false</boolProp>
+        <stringProp name="include_sample_labels"></stringProp>
+        <stringProp name="exclude_sample_labels"></stringProp>
+        <stringProp name="start_offset"></stringProp>
+        <stringProp name="end_offset"></stringProp>
+        <boolProp name="include_checkbox_state">false</boolProp>
+        <boolProp name="exclude_checkbox_state">false</boolProp>
+      </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
     </hashTree>
   </hashTree>

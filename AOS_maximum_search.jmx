@@ -9772,7 +9772,7 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
         </hashTree>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC1_looking_through">
-        <intProp name="ThreadGroup.num_threads">105</intProp>
+        <intProp name="ThreadGroup.num_threads">7</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <longProp name="ThreadGroup.duration">1200</longProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
@@ -13728,7 +13728,7 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC2_buy">
-        <intProp name="ThreadGroup.num_threads">120</intProp>
+        <intProp name="ThreadGroup.num_threads">8</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <longProp name="ThreadGroup.duration">1200</longProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
@@ -15834,7 +15834,7 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC3_login_logout">
-        <intProp name="ThreadGroup.num_threads">45</intProp>
+        <intProp name="ThreadGroup.num_threads">3</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <longProp name="ThreadGroup.duration">1200</longProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
@@ -16731,7 +16731,7 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC4_select_dont_buy">
-        <intProp name="ThreadGroup.num_threads">30</intProp>
+        <intProp name="ThreadGroup.num_threads">2</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <longProp name="ThreadGroup.duration">1200</longProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
@@ -18317,7 +18317,7 @@ DHˑӨg&#xd;�	�!&quot;&#x1d;P{v&#x17;�Q�&#x1c;��f�ǥ5zPl�&#x19;q
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\User_1\jMeterTests\AOS_jMeterTestsResults_15\pm.csv</stringProp>
+        <stringProp name="filename">C:\Users\User_1\jMeterTests\AOS_jMeterTestsResults_1\pm.csv</stringProp>
         <longProp name="interval_grouping">1000</longProp>
         <boolProp name="graph_aggregated">false</boolProp>
         <stringProp name="include_sample_labels"></stringProp>
